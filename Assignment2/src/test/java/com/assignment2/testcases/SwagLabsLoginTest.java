@@ -22,27 +22,19 @@ public class SwagLabsLoginTest extends Base{
 		slp = new SwagLabsLoginPage();	
 	}
 	
-//	@Test
-//	public void pageTitleTest() {
-//	String LoginPageTitle =	slp.LoginPageTitle();
-//	System.out.println("The Page title is "+LoginPageTitle);
-//	}
-	
 	@Test
-	public void userloginTest() {
+	public void swagLabTest() throws InterruptedException {
 		ExcelFileReader reader = new ExcelFileReader();
 		reader.testData("E:\\JAVA Practice\\Assignment2\\src\\main\\java\\com\\assignment2\\testdata\\ExcelTestData.xlsx");
 		String row = ExcelFileReader.sheet.getRow(1).getCell(0).getStringCellValue();
 		String row1 = ExcelFileReader.sheet.getRow(1).getCell(1).getStringCellValue();
-		slp.loginuser(row, row1, slp.Dropdownbox, "Price (low to high)");
-		
-		
+		slp.swaglabs(row, row1, slp.Dropdownbox, "Price (low to high)");
 		}
 	
 
 	@AfterMethod
-	public void teadDown() {
-	//	driver.quit();
+	public void tearDown() {
+		driver.quit();
 	}
 	
 }

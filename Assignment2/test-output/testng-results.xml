@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15497" started-at="2019-09-30T02:27:27Z" finished-at="2019-09-30T02:27:43Z">
+  <suite name="Default suite" duration-ms="33120" started-at="2019-10-04T06:20:21Z" finished-at="2019-10-04T06:20:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15497" started-at="2019-09-30T02:27:27Z" finished-at="2019-09-30T02:27:43Z">
+    <test name="Default test" duration-ms="33120" started-at="2019-10-04T06:20:21Z" finished-at="2019-10-04T06:20:54Z">
       <class name="com.assignment2.testcases.SwagLabsLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.assignment2.testcases.SwagLabsLoginTest@548e7350]" name="setUp" is-config="true" duration-ms="12294" started-at="2019-09-30T02:27:27Z" finished-at="2019-09-30T02:27:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.assignment2.testcases.SwagLabsLoginTest@548e7350]" name="setUp" is-config="true" duration-ms="12190" started-at="2019-10-04T06:20:21Z" finished-at="2019-10-04T06:20:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="userloginTest()[pri:0, instance:com.assignment2.testcases.SwagLabsLoginTest@548e7350]" name="userloginTest" duration-ms="3168" started-at="2019-09-30T02:27:40Z" finished-at="2019-09-30T02:27:43Z">
+        <test-method status="PASS" signature="swagLabTest()[pri:0, instance:com.assignment2.testcases.SwagLabsLoginTest@548e7350]" name="swagLabTest" duration-ms="20180" started-at="2019-10-04T06:20:33Z" finished-at="2019-10-04T06:20:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userloginTest -->
-        <test-method status="PASS" signature="teadDown()[pri:0, instance:com.assignment2.testcases.SwagLabsLoginTest@548e7350]" name="teadDown" is-config="true" duration-ms="0" started-at="2019-09-30T02:27:43Z" finished-at="2019-09-30T02:27:43Z">
+        </test-method> <!-- swagLabTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment2.testcases.SwagLabsLoginTest@548e7350]" name="tearDown" is-config="true" duration-ms="715" started-at="2019-10-04T06:20:53Z" finished-at="2019-10-04T06:20:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teadDown -->
+        </test-method> <!-- tearDown -->
       </class> <!-- com.assignment2.testcases.SwagLabsLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

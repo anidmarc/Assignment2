@@ -1,7 +1,10 @@
 package com.assignment2.util;
 
-public class WaitTime {
+import com.assignment2.base.Base;
 
-	public static long pageloadtime = 20;
-	public static long implicitime = 10;
+public class WaitTime extends Base{
+
+	public static long pageloadtime = 30;
+	public static long implicitime = 15;
+	
 }
