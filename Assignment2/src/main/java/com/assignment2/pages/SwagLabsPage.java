@@ -13,7 +13,7 @@ import org.testng.Assert;
 import com.assignment2.base.Base;
 import com.assignment2.util.SelectDropDown;
 
-public class SwagLabsLoginPage extends Base{
+public class SwagLabsPage extends Base{
 
 	@FindBy(id="user-name")
     WebElement Username;
@@ -54,7 +54,7 @@ public class SwagLabsLoginPage extends Base{
     @FindBy(xpath="//h2[@class='complete-header']")
     WebElement Header;
     
-	public SwagLabsLoginPage() {
+	public SwagLabsPage() {
 		PageFactory.initElements(driver, this);
 	}
 	

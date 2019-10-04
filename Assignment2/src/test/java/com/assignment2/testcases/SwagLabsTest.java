@@ -5,12 +5,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.assignment2.base.Base;
-import com.assignment2.pages.SwagLabsLoginPage;
+import com.assignment2.pages.SwagLabsPage;
 import com.assignment2.util.ExcelFileReader;
 
 public class SwagLabsTest extends Base{
 
-	SwagLabsLoginPage slp;
+	SwagLabsPage slp;
 	
 	public SwagLabsTest() {
 		super();
@@ -19,7 +19,7 @@ public class SwagLabsTest extends Base{
 	@BeforeMethod
 	public void setUp() {
 		intialization();
-		slp = new SwagLabsLoginPage();	
+		slp = new SwagLabsPage();	
 	}
 	
 	@Test
