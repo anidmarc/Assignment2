@@ -6,8 +6,8 @@
       <class name="com.assignment2.testcases.SwagLabsLoginTest">
         <methods>
           <include name="setUp"/>
-          <include name="userloginTest"/>
-          <include name="teadDown"/>
+          <include name="tearDown"/>
+          <include name="swagLabTest"/>
         </methods>
       </class> <!-- com.assignment2.testcases.SwagLabsLoginTest -->
     </classes>
