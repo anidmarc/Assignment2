@@ -8,11 +8,11 @@ import com.assignment2.base.Base;
 import com.assignment2.pages.SwagLabsLoginPage;
 import com.assignment2.util.ExcelFileReader;
 
-public class SwagLabsLoginTest extends Base{
+public class SwagLabsTest extends Base{
 
 	SwagLabsLoginPage slp;
 	
-	public SwagLabsLoginTest() {
+	public SwagLabsTest() {
 		super();
 	}
 	
